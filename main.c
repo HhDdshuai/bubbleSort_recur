@@ -9,7 +9,7 @@ void swap(elemType *a,elemType *b){
     *a = *b;
     *b = temp;
 }
-//µÝ¹éÃ°ÅÝ
+//é€’å½’å†’æ³¡
 void bubbleSort_recur(elemType a[],int low,int high){
     if(low == high){
         return;
